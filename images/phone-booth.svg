@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 170">
+  <!-- Красная телефонная будка -->
+  <ellipse cx="38" cy="166" rx="34" ry="4" fill="#000" opacity=".35"/>
+  <!-- крыша-купол -->
+  <path fill="#C9503C" d="M6 34Q38 2 70 34z"/>
+  <circle cx="38" cy="12" r="4" fill="#C89B3C"/>
+  <rect x="4" y="32" width="68" height="6" rx="2" fill="#B53A2A"/>
+  <!-- корпус -->
+  <rect x="8" y="38" width="60" height="122" fill="#B53A2A"/>
+  <rect x="4" y="156" width="68" height="8" rx="2" fill="#8f2e21"/>
+  <!-- табличка TELEPHONE -->
+  <rect x="14" y="42" width="48" height="11" rx="2" fill="#12162A"/>
+  <text x="38" y="50.5" font-family="Manrope, Arial, sans-serif" font-size="7" font-weight="700" letter-spacing=".6" fill="#F4EFE2" text-anchor="middle">TELEPHONE</text>
+  <!-- остекление -->
+  <rect x="15" y="58" width="46" height="88" rx="2" fill="#8f2e21"/>
+  <g fill="#d9bd80" opacity=".5">
+    <rect x="18" y="61" width="12" height="12"/><rect x="32" y="61" width="12" height="12"/><rect x="46" y="61" width="12" height="12"/>
+    <rect x="18" y="75" width="12" height="12"/><rect x="32" y="75" width="12" height="12"/><rect x="46" y="75" width="12" height="12"/>
+    <rect x="18" y="89" width="12" height="12"/><rect x="32" y="89" width="12" height="12"/><rect x="46" y="89" width="12" height="12"/>
+    <rect x="18" y="103" width="12" height="12"/><rect x="32" y="103" width="12" height="12"/><rect x="46" y="103" width="12" height="12"/>
+    <rect x="18" y="117" width="12" height="12"/><rect x="32" y="117" width="12" height="12"/><rect x="46" y="117" width="12" height="12"/>
+    <rect x="18" y="131" width="12" height="12"/><rect x="32" y="131" width="12" height="12"/><rect x="46" y="131" width="12" height="12"/>
+  </g>
+  <rect x="56" y="104" width="3" height="12" rx="1.5" fill="#C89B3C"/>
+</svg>

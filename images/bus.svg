@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 160">
+  <!-- Красный двухэтажный автобус, маршрут «7.0» -->
+  <ellipse cx="135" cy="152" rx="122" ry="6" fill="#000" opacity=".35"/>
+  <!-- корпус -->
+  <path fill="#B53A2A" d="M14 18c0-8 6-12 14-12h196c14 0 28 10 30 26l4 96c0 6-4 10-10 10H20c-4 0-6-3-6-7z"/>
+  <path fill="#C9503C" d="M28 6h196c10 0 19 4 24 11H20c2-7 4-11 8-11z"/>
+  <!-- кремовая полоса между этажами -->
+  <rect x="14" y="64" width="246" height="8" fill="#F4EFE2"/>
+  <!-- окна второго этажа -->
+  <g fill="#12162A">
+    <rect x="24" y="22" width="36" height="34" rx="5"/>
+    <rect x="66" y="22" width="36" height="34" rx="5"/>
+    <rect x="108" y="22" width="36" height="34" rx="5"/>
+    <rect x="150" y="22" width="36" height="34" rx="5"/>
+    <rect x="192" y="22" width="30" height="34" rx="5"/>
+  </g>
+  <g fill="#d9bd80" opacity=".55">
+    <rect x="66" y="22" width="36" height="34" rx="5"/>
+    <rect x="150" y="22" width="36" height="34" rx="5"/>
+  </g>
+  <!-- табличка маршрута -->
+  <rect x="228" y="24" width="26" height="22" rx="3" fill="#12162A"/>
+  <text x="241" y="40" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="#d9bd80" text-anchor="middle">7.0</text>
+  <!-- окна первого этажа -->
+  <g fill="#12162A">
+    <rect x="24" y="80" width="36" height="32" rx="5"/>
+    <rect x="66" y="80" width="36" height="32" rx="5"/>
+    <rect x="108" y="80" width="36" height="32" rx="5"/>
+    <rect x="150" y="80" width="36" height="32" rx="5"/>
+  </g>
+  <g fill="#d9bd80" opacity=".4">
+    <rect x="24" y="80" width="36" height="32" rx="5"/>
+    <rect x="108" y="80" width="36" height="32" rx="5"/>
+  </g>
+  <!-- дверь и лобовое стекло -->
+  <rect x="194" y="80" width="26" height="54" rx="3" fill="#8f2e21"/>
+  <rect x="198" y="84" width="18" height="24" rx="2" fill="#12162A"/>
+  <path fill="#12162A" d="M228 80h22c4 0 6 2 7 6l1 26h-30z"/>
+  <!-- фара и молдинг -->
+  <circle cx="252" cy="122" r="5" fill="#F4EFE2"/>
+  <circle cx="252" cy="122" r="9" fill="#d9bd80" opacity=".25"/>
+  <rect x="14" y="118" width="178" height="3" fill="#8f2e21"/>
+  <!-- колёса -->
+  <g>
+    <circle cx="60" cy="138" r="18" fill="#12162A"/>
+    <circle cx="60" cy="138" r="8" fill="#98A1C4"/>
+    <circle cx="210" cy="138" r="18" fill="#12162A"/>
+    <circle cx="210" cy="138" r="8" fill="#98A1C4"/>
+  </g>
+</svg>

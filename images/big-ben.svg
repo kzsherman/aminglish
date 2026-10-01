@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax meet">
+  <!-- Ночной Лондон: колесо обозрения, Вестминстер и Биг-Бен. Цвета — палитра сайта -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#C89B3C" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#C89B3C" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="win" width="14" height="22" patternUnits="userSpaceOnUse">
+      <rect x="4" y="5" width="5" height="11" rx="2.5" fill="#C89B3C" opacity=".22"/>
+    </pattern>
+  </defs>
+
+  <!-- луна -->
+  <circle cx="1310" cy="105" r="36" fill="#d9bd80" opacity=".18"/>
+  <circle cx="1310" cy="105" r="24" fill="#d9bd80" opacity=".22"/>
+
+  <!-- дальний город -->
+  <path fill="#1C2447" opacity=".75" d="M0 600V505h40v-30h36v40h30v-55h48v25h40v-18h52v48h30v-62h44v40h38v-22h46v52h40v-34h60v20h48v-44h42v60h34v-30h52v26h40v-40h48v36h36v-24h56v50h40v-30h58v42h34v-26h50v34h44v-20h60v44h40v-28h48v118z"/>
+
+  <!-- колесо обозрения -->
+  <g stroke="#262f57" fill="none" stroke-width="3" opacity=".9">
+    <circle cx="250" cy="400" r="128"/>
+    <circle cx="250" cy="400" r="118" stroke-width="1.5"/>
+    <path stroke-width="1.5" d="M250 272v256M122 400h256M159.5 309.5l181 181M340.5 309.5l-181 181M201 282l98 236M299 282l-98 236M132 351l236 98M368 351l-236 98"/>
+    <path stroke-width="5" d="M250 400l-70 200M250 400l70 200"/>
+  </g>
+  <g fill="#C89B3C" opacity=".55">
+    <circle cx="250" cy="272" r="5"/><circle cx="378" cy="400" r="5"/><circle cx="122" cy="400" r="5"/>
+    <circle cx="340.5" cy="309.5" r="5"/><circle cx="159.5" cy="309.5" r="5"/><circle cx="340.5" cy="490.5" r="5"/>
+    <circle cx="159.5" cy="490.5" r="5"/><circle cx="299" cy="282" r="5"/><circle cx="201" cy="282" r="5"/>
+    <circle cx="368" cy="351" r="5"/><circle cx="132" cy="351" r="5"/><circle cx="368" cy="449" r="5"/><circle cx="132" cy="449" r="5"/>
+  </g>
+
+  <!-- свечение за башней -->
+  <circle cx="1120" cy="215" r="150" fill="url(#glow)"/>
+
+  <!-- здание парламента -->
+  <g fill="#1C2447">
+    <path d="M700 600V470h20v-26l8-18 8 18v26h40v-20l6-14 6 14v20h40v-24l7-16 7 16v24h40v-20l6-14 6 14v20h40v-26l8-18 8 18v26h40v-20l6-14 6 14v20h40V600z"/>
+    <path d="M1150 600V455h30v-30l9-20 9 20v30h44v-22l7-16 7 16v22h44v-26l8-18 8 18v26h44v-20l6-14 6 14v20h40V600z"/>
+    <!-- башня Виктории справа -->
+    <path d="M1360 600V360h-6v-14h50v14h-6v240z"/>
+    <path d="M1356 346l8-22 8 22zM1386 346l8-22 8 22z"/>
+  </g>
+  <rect x="700" y="480" width="440" height="110" fill="url(#win)"/>
+  <rect x="1150" y="470" width="270" height="120" fill="url(#win)"/>
+  <rect x="1360" y="372" width="38" height="200" fill="url(#win)"/>
+
+  <!-- Биг-Бен (Элизабет-тауэр) -->
+  <g>
+    <!-- ствол башни -->
+    <rect x="1086" y="262" width="68" height="338" fill="#1C2447"/>
+    <g stroke="#262f57" stroke-width="2">
+      <path d="M1098 270v330M1110 270v330M1130 270v330M1142 270v330"/>
+    </g>
+    <rect x="1092" y="300" width="56" height="300" fill="url(#win)" opacity=".8"/>
+    <!-- часовой ярус -->
+    <rect x="1074" y="176" width="92" height="88" fill="#262f57"/>
+    <rect x="1070" y="258" width="100" height="8" fill="#1C2447"/>
+    <rect x="1070" y="172" width="100" height="8" fill="#1C2447"/>
+    <path fill="#262f57" d="M1070 176l6-22 6 22zM1158 176l6-22 6 22z"/>
+    <!-- циферблат -->
+    <circle cx="1120" cy="219" r="34" fill="#C89B3C"/>
+    <circle cx="1120" cy="219" r="30" fill="#F4EFE2"/>
+    <circle cx="1120" cy="219" r="30" fill="#d9bd80" opacity=".25"/>
+    <g stroke="#12162A" stroke-width="2.4" stroke-linecap="round">
+      <path d="M1120 192v6M1120 240v6M1093 219h6M1141 219h6M1106.5 195.6l2 3.5M1131.5 238.9l2 3.5M1096.6 205.5l3.5 2M1139.9 230.5l3.5 2M1133.5 195.6l-2 3.5M1108.5 238.9l-2 3.5M1143.4 205.5l-3.5 2M1100.1 230.5l-3.5 2"/>
+    </g>
+    <g stroke="#12162A" stroke-linecap="round">
+      <path stroke-width="3.2" d="M1120 219l-12-8"/>
+      <path stroke-width="2.2" d="M1120 219l14-18"/>
+    </g>
+    <circle cx="1120" cy="219" r="2.6" fill="#A6503A"/>
+    <!-- звонница -->
+    <rect x="1080" y="132" width="80" height="42" fill="#1C2447"/>
+    <g fill="#C89B3C" opacity=".45">
+      <path d="M1088 170v-20a6 6 0 0 1 12 0v20zM1104 170v-20a6 6 0 0 1 12 0v20zM1124 170v-20a6 6 0 0 1 12 0v20zM1140 170v-20a6 6 0 0 1 12 0v20z"/>
+    </g>
+    <!-- крыша и шпиль -->
+    <path fill="#262f57" d="M1076 134h88l-22-44h-44z"/>
+    <path stroke="#1C2447" stroke-width="2" d="M1098 92l-10 40M1142 92l10 40M1120 92v40"/>
+    <rect x="1106" y="70" width="28" height="22" fill="#1C2447"/>
+    <path fill="#C89B3C" opacity=".5" d="M1112 88v-10a3 3 0 0 1 6 0v10zM1122 88v-10a3 3 0 0 1 6 0v10z"/>
+    <path fill="#262f57" d="M1104 72h32l-16-58z"/>
+    <path stroke="#C89B3C" stroke-width="2" d="M1120 14V2"/>
+    <circle cx="1120" cy="6" r="3" fill="#C89B3C"/>
+  </g>
+
+  <!-- набережная -->
+  <rect x="0" y="588" width="1440" height="12" fill="#1C2447"/>
+</svg>
