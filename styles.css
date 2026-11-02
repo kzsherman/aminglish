@@ -91,11 +91,12 @@ h1,h2,h3{ font-family:var(--display); color:var(--paper); font-weight:600; line-
 .nav-toggle:hover{ border-color:var(--gold); }
 
 .logo{
-  flex:0 1 auto; min-width:0;
+  flex:none;   /* название не сжимается и не обрезается */
   font-family:var(--display); font-weight:700; color:var(--paper);
   font-size:20px; letter-spacing:.01em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
 }
 .logo span{ color:var(--gold); }
+@media(max-width:359px){ .nav .logo{ font-size:18px; } }
 
 .nav-links{ display:none; }
 .nav-right{ margin-left:auto; display:flex; align-items:center; gap:8px; flex:none; }
@@ -114,7 +115,7 @@ h1,h2,h3{ font-family:var(--display); color:var(--paper); font-weight:600; line-
 @media(min-width:640px){
   .header-cta{ display:inline-flex; }
 }
-@media(min-width:1000px){
+@media(min-width:1100px){
   .nav-toggle{ display:none; }
   .nav-links{ display:flex; align-items:center; gap:24px; margin-left:28px; font-size:14px; font-weight:600; white-space:nowrap; }
   .nav-links a{ color:var(--muted); transition:color .2s; }
@@ -157,7 +158,7 @@ html.menu-open .mobile-menu{ transform:translateX(0); visibility:visible; }
 .mm-foot{ margin-top:auto; padding-top:22px; display:flex; flex-direction:column; gap:14px; }
 .mm-foot .btn{ width:100%; }
 .mm-social{ display:flex; gap:10px; }
-@media(min-width:1000px){ .mobile-menu, .menu-overlay{ display:none; } }
+@media(min-width:1100px){ .mobile-menu, .menu-overlay{ display:none; } }
 
 /* ================= ГЕРОЙ С БИГ-БЕНОМ ================= */
 .hero{
@@ -410,6 +411,9 @@ html.menu-open .mobile-menu{ transform:translateX(0); visibility:visible; }
 .vg-slide{ flex:0 0 100%; aspect-ratio:16/9; position:relative; background:#000; }
 .vg-slide iframe, .vg-slide .vg-poster{ position:absolute; inset:0; width:100%; height:100%; border:0; }
 .vg-poster{ padding:0; cursor:pointer; background:#000; }
+/* Shorts: вертикальный слот 9:16 по центру */
+.vg-slide.is-short{ aspect-ratio:auto; height:min(78vh, 640px); }
+.vg-slide.is-short iframe, .vg-slide.is-short .vg-poster{ left:50%; right:auto; width:auto; max-width:100%; aspect-ratio:9/16; transform:translateX(-50%); }
 .vg-poster img{ width:100%; height:100%; object-fit:cover; opacity:.85; transition:opacity .2s; }
 .vg-poster:hover img{ opacity:1; }
 .vg-play{

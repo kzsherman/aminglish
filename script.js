@@ -28,7 +28,7 @@
   });
   // при повороте/расширении до десктопа меню закрывается само
   window.addEventListener('resize', function () {
-    if (window.innerWidth >= 1000) closeMenu();
+    if (window.innerWidth >= 1100) closeMenu();
   });
 })();
 
